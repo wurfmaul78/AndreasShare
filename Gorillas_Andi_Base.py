@@ -45,7 +45,7 @@ class GorillaGame:
         # Hintergrundschrift
         self.canvas.create_text(
             WIDTH // 2, 100,
-            text="Speziell für Andreas",
+            text="Andis Gorllas 1.0",
             font=("Arial", 49, "bold"),
             fill="white",
             tags="skytext"
