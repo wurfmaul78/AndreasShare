@@ -10,7 +10,7 @@ WINNING_SCORE = 10
 class GorillaGame:
     def __init__(self, root):
         self.root = root
-        self.root.title("Gorillas – Tkinter Edition")
+        self.root.title("Gorillas – Python Edition")
 
         self.canvas = tk.Canvas(root, width=WIDTH, height=HEIGHT, bg="skyblue")
         self.canvas.pack()
