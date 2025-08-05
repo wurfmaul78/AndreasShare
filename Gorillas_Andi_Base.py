@@ -19,7 +19,6 @@ class GorillaGame:
         self.turn = 0
         self.wind = random.uniform(-1, 1)
         self.running = True
-
         self.input_frame = tk.Frame(self.root)
         self.input_frame.pack()
 
@@ -45,7 +44,7 @@ class GorillaGame:
         # Hintergrundschrift
         self.canvas.create_text(
             WIDTH // 2, 100,
-            text="Andis Gorllas 1.0",
+            text="Andis Gorillas 1.0",
             font=("Arial", 49, "bold"),
             fill="white",
             tags="skytext"
